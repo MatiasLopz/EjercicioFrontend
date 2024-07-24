@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="winestyle.css">
+	<script type="text/javascript">
+		function enviarDatos(){
+				alert('Los datos han sido enviados exitosamente'); 			
+		}
+		</script>
+</head>
+<body>
+	<div class="header">
+		
+	</div>
+
+
+	<div id="menu">
+		<ul>
+			<li><a href="#">Testimonios</a></li>
+			<li><a href="#">Soporte</a></li>
+			<li><a href="#">Soluciones</a></li>
+			<li><a href="#">Nosotros</a></li>
+			<li><a href="#">Bodegas</a></li>
+			<li><a href="#">Productos</a></li>
+			<li><a href="#">Eventos</a></li>
+			<li><a href="#">Chat</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="index.html">Noticias</a></li>
+			<li><a href="#">Servicios</a></li>
+		</ul>
+	</div>
+
+	<!--Bloques del centro-->
+
+<div class="centro">
+	<div class="caja1">
+		<h2><img src="./imagenes/event_icon.gif">Eventos</h2>
+		<div id="fecha"><p align="center">Mayo 2011</p></div>
+		<p align="center">Se celebra en la Provincia de Mendoza, el primer fin de semana de marzo(casi sin interrupciones desde 1936) y se trata del homenaje que el hombre le dedica a su industria principal: la vinitícola.</p>
+	</div>
+
+	<div class="caja1">
+		<h2><img src="./imagenes/service.gif">Glosario</h2>
+		<p align="left">Enólogo:<br>Experto responsable de dirigir y asesorar en el proceso de elaboración del vino y su almacenaje, análisis, conservación, embotellados y comercialización. Estudia asimismo el proceso del cultivo de la vid, así como los suelos aptos para determinados cepajes y otros temas vinculados.</p>
+	</div>
+</div>
+
+	<!--Contenido Contacto-->
+
+<div id="ContenedorContacto">
+	<h2>Contactenos</h2>
+	<div id="DatosContacto">
+
+		<p>Alvear 2701</p>
+		<p>Teléfono: 4256598<br>Fax: 4205632</p>
+		<p>Horario de atención: 8:30 a 17 h.<br>Email: contactovinos.com.ar</p>
+	</div>
+
+	<div id="FormContactar">
+		<h3>* Campos Obligatorios</h3>
+		<form>
+			
+
+
+			<div class="campoNombre"> 
+				<p>Destinatario: </p>
+				<p>Apellido y nombre:<span>*</span></p>
+				<p>Razón Social</p>
+				<p>Email:</p>
+				<p>Teléfono:<span>*</span></p>
+				<p>Celular:<span>*</span></p>
+				<p>Vía de Contacto:</p>
+				<p>Comentarios:</p>
+			</div>
+
+			<div class="campos">
+				<select class="campoTamaño">
+					<option>Sr. Director</option>
+					<option>Sra. Directora de Ventas</option>
+					<option>Sr. Administrador</option>
+					<option>Sra. Secretaria</option>
+				</select>
+
+				<input type="text" name="" class="campoTamaño" required>
+				 
+				<input type="text" name="" class="campoTamaño" id="razon">
+			
+				<input type="email" name="" class="campoTamaño">
+			
+				<input type="tel" name=""  class="campoTamaño" required>
+				
+				<input type="tel" name=""  class="campoTamaño" required>
+			
+				<select class="campoTamaño">
+					<option>Email</option>
+					<option>WhatsApp</option>
+				</select>
+
+				<textarea rows=6 maxlength="300" id="comentarios">   </textarea>
+				<br>
+				<button type="submit" onclick="enviarDatos()">Enviar</button>
+			</div>
+			
+		</form>
+	
+	</div>
+</div>
+
+<!--Footer-->
+<div id="footer">
+	<footer>
+		<ul>
+			<li><a href="#">Testimonios</a></li>
+			<li><a href="#">Soporte</a></li>
+			<li><a href="#">Soluciones</a></li>
+			<li><a href="#">Nosotros</a></li>
+			<li><a href="#">Productos</a></li>
+			<li><a href="#">Chat</a></li>
+			<li><a href="#">Noticias</a></li>
+			<li><a href="#">Servicios</a></li>
+			<li><a href="#">Contacto</a></li>
+		</ul>
+	</footer>
+</div>
+
+</body>
+</html>

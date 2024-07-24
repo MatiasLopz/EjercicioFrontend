@@ -1,0 +1,133 @@
+*{margin: 0; padding: 0;}
+Body{background:  #6f0405; font-family: Arial; font-size: 22px; color: #fff;
+    position: relative; width: 1400px; height: 1650px;}
+
+/* Arreglar lo de los tamaños de imagen */
+
+.header {background: url("./imagenes/header.jpg") no-repeat; background-size: 1400px auto;
+		width: 1400px; height: 420px;}
+/* Menú */
+
+#menu { width: 1400px; height: 20px; margin-bottom:20px;}
+
+#menu ul {background-color: #1d0909;float: left; width: 1400px; height: 25px;}
+#menu ul li {list-style:none; display: inline-block; border-left: 2px solid #857784; 
+			padding: 0 10px; margin: 0 5px; font-size: 20px;}
+#menu ul li a {text-decoration: none; color:  #857784 ;}
+#menu ul li a:hover {color:#FFFFFF}
+
+/* Izquierda del Index*/
+
+.lateralIzquierdo {float: left;}
+
+#Productos {position: relative; color: #96886e; width: 300px; height: 580px; padding: 5px; 
+			margin: 10px 20px 5px 20px;}
+#Productos h2 {font-weight: normal; color: #FFFFFF; margin: 5px; padding: 5px;}
+#Productos p { color: #96886e; margin: 5px; padding: 5px;}
+
+#Producto1 a{background: url("./imagenes/images5.jpg") no-repeat; display: block; width: 240px; height: 110px;
+			margin: 5px; padding: 5px;}
+#Producto2 a{background: url("./imagenes/imagesCAR2P5TK.jpg") no-repeat; display: block; width: 240px; height: 110px;
+            margin: 5px; padding: 5px;}
+#Producto3 a{background: url("./imagenes/images9.jpg") no-repeat; display: block; width: 240px; height: 110px;
+            margin: 5px; padding: 5px;}
+
+/* Bloques en medio*/
+
+
+#formUsuarios {background: #450606; width: 300px; height: 295px; float: left;
+				padding: 0px; margin: 10px 20px; border-radius: 4px;}
+#formUsuarios h3{background: #a75f50; margin: 0px; height: 50px; padding: 10px; 
+				text-align: center; border-radius: 4px;}
+#formUsuarios p {margin: 15px auto 0px 20px;}
+#formUsuarios input {margin: 15px auto 5px 20px;}
+#formUsuarios a {margin: -10px 20px 20px 20px; padding: 0px auto auto auto; color:#96886e;}
+
+
+
+
+/* Bloques en medio*/
+
+.centro {float: left;}
+
+.caja1 {background:  #450606; width: 300px; height: 450px; margin: 10px; color: #FFF; border-radius: 4px; }
+.caja1 h2 {padding: 10px;text-align: center;}
+#fecha p{background:  #6f0405; width: 200px; margin: auto; color:  #a75f50 ; border-radius: 4px;}
+.caja1 p{padding: 15px;}
+
+
+/* Contenido a la derecha */
+
+.derecha {padding: 10px; margin: 10px; float: left; width: 660px;}
+
+/* Contenido de texto */
+
+.Contenido {margin-right: 10px;float: left; width: 660px;}
+.Contenido h2{}
+.Contenido h3 {color:#96886e; margin-top: 15px; margin-bottom: 15px;}
+.Contenido p {color:#000; margin-top: 15px; margin-bottom: 15px;}
+#citaResaltada {color:#96886e; margin-top: 15px; margin-bottom: 15px;  background: #450606;
+                border-radius: 4px;}
+
+/*Cajas abajo del texto*/
+
+.caja2 {width: 280px; height: 350px; margin: 10px; padding: 0px; 
+		border: 2px solid #96886e; float: left; background-color:  #998a70;
+		border-radius: 4px;}
+.caja2 h3 {background-color: #000; margin: 0px; padding: 0px; width: 280px;
+		border-radius: 4px;}
+.caja2 ul {}
+.caja2 ul li {list-style: url("./imagenes/arrow.gif"); margin: 20px;}
+.caja2 ul li a {text-decoration: none; color: #FFF;}
+.caja2 ul li a:hover {color: #450606;}
+.caja2 p {margin: 20px;}
+
+/*Footer*/
+
+footer{position: absolute; bottom: 0; height: 100px;background-color: #000;}
+
+footer ul {float: left; width: 1400px; height: 25px;}
+footer ul li {list-style:none; display: inline-block; border-left: 2px solid #857784; 
+			padding: 0 10px; margin: 35px 5px; font-size: 20px;}
+footer ul li a {text-decoration: none; color:  #FFF ;}
+footer ul li a:hover {color:#FFFFFF}
+
+
+/*--------------------------------------------------------------------------------------*/
+
+
+/*Página: Contacto*/
+
+/*Contenedor contacto*/
+
+#ContenedorContacto {margin: 20px;}
+
+#ContenedorContacto h2 {margin: 20px 20px 0 20px; padding: 10px;}
+
+/*Datos de contacto en texto*/
+
+#DatosContacto {float: left;}
+#DatosContacto p {margin: 20px auto 20px 0; width: 800px;}
+
+
+/*Formulario de contacto*/
+
+#FormContactar {margin-top: 20px;}
+#FormContactar h3{float: left; }
+
+#FormContactar form {margin-top: 20px; float: left;
+                    width: 800px;}
+#FormContactar form .campoNombre {width: 300px; height: 800px; float: left;}
+
+#FormContactar form .campoNombre p {margin: 20px;}
+
+#FormContactar form .campos {width: 800px;}
+
+#FormContactar form .campos button {float: left; background: #450606; color: #FFF; border-radius: 2px; border: 1px solid #FFF;}
+
+#FormContactar form .campos .campoTamaño {width: 400px; height: 22px; float: left; margin-top: 22px;}
+
+#comentarios { width: 400px; margin-top: 22px; }
+
+#razon {text-transform: uppercase;}
+
